@@ -21,6 +21,7 @@
     <modules>
         <module>eureka</module>
         <module>user</module>
+        <module>common</module>
     </modules>
 
     <properties>
@@ -50,6 +51,18 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter</artifactId>
             <version>${spring-cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.45</version>
         </dependency>
     </dependencies>
 
